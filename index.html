@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<style>
+		#duck {
+			border: transparent;
+			background: transparent;
+			width: 200px;
+			box-shadow: none; 
+			height: 200px;
+		}
+		#duckz {
+			box-shadow: none;
+			border: transparent;
+		}
+		#duckl {
+			box-shadow: none;
+			border: transparent;
+		}
+		#duckk {
+			box-shadow: none;
+			border: transparent;
+			width: 160px;
+			height: 100px;
+		}
+			#duckx {
+			box-shadow: none;
+			border: transparent;
+			width: 500px;
+			height: 400px;
+		}
+
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><img id="duckz" src="img/best.png"></section>
+				<section>Who are we?</section>
+				<section>
+					<img id="duck" src="img/cambridgedone.png">
+					<img id="duck" src="img/chicagodone.png">
+					<img id="duck" src="img/columbiadone.png">
+					<br>
+					Columbia University B.A. Mathematics <br>
+					University of Cambridge M.A. Mathematics <br>
+					University of Chicago Ph.D Computer Science
+				</section>
+
+				<section>
+				<img id="duckl" src="img/phl.png"> <br>
+				Technical Advisor at a machine learning company that speeds up MRI machines <br> 
+				CTO of a data-mining business in 2008 <br>
+				</section>
+				<section><img id="duckz" src="img/zach.jpg"></section>
+				<section>
+					<img id="duck" src="img/chicagodone.png"> <br>
+					University of Chicago B.A. Linguistics | Computer Science
+					<br> 
+				</section>
+				<section>
+					<img id="duckl" src="img/zkai.jpg"> <br>
+					<img id="duckk" src="img/logob.png"> <br>
+					Author and Curriculum Builder at Z会<br>
+					A.I. Develepor for E-Spire X 人口知能
+				</section>
+				<section>What do we do?</section>
+				<section>Neural Networks | Deep Learning | Computational Linguistics | Artificial Intellegence</section>
+				<section>What are Neural Networks?</section> <!-- Image here? -->
+				<section>
+					<img id="duckz" src="img/nn.jpg" class="fragment">
+				</section>
+				<section><img id="duckz" src="img/car.jpg" class="fragment"></section>
+					<section>
+					<p class="fragment">
+							Most computer scientists <b>do not</b> have the resources to use neural networks
+					</p>
+					<p class="fragment">
+						We have access to state of the art supercomputing clusters at the federal Argonne National Laboratory. It is designed for nuclear and high energy physics simulations.
+					</p>
+					<p class="fragment">
+						Access to multibillion dollar supercomputers like Argonne is only available to large corporations and select top universities.
+					</p>
+					<p class="fragment">
+						In addition to access itself, operating such supercomputers requires expertise regular developers don't posses.
+					</p>
+					</section>
+				<section>
+					Central Concept <br>
+				</section>
+				<section>
+				<p class="fragment"> Kogito also allows students to learn English vocabulary for various English exams, such as the TOEFL, Japanese High School Entrance Exam, and the TOEIC, by exploring the relationships between words from those test specific domains. 
+				</p>
+				<img id="duckx" src="img/Exams.png" class="fragment">
+				</section>
+				<section>Tech Demo</section>
+				<section><embed src="http://www.kogito.world" style="width:1000px; height: 700px;"></section>
+				<section><embed src="http://www.kogito.world/graphdemo" style="width:1000px; height: 600px;"></section>
+				<section><embed src="http://www.kogito.world/testdemo" style="width:1000px; height: 600px;"></section>
+				<section>Marketing</section>
+				<section>Monthly Payment Model</section>
+				<section><img id="duck" src="img/chicagodone.png"> <br> Marketing Intern <br> June, 2016 --> January, 2016</section>
+				<section>Direct Marketing Plan</section>
+				<!-- <section>Direct -->
+				<section>We can port Kogito to any language- <b><i>fast</i></b></section>
+				<section><embed src="http://www.kogito.world/mainkor" style="width:1000px; height: 650px;"></section>
+				<section><embed src="http://www.kogito.world/mainfr" style="width:1000px; height: 600px;"></section>
+				<section><embed src="http://www.kogito.world/maineng" style="width:1000px; height: 600px;"></section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
